@@ -1,0 +1,23 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    &__menu{
+        width: 100%;
+        height: 100%;
+        background-color:transparent;
+        display: flex;
+        align-items: center;
+    }
+}
+.ant-menu-inline .ant-menu-item-selected  {
+    background-color: orange;
+    border-radius: 50%; /* If you want to make the background circular */
+  }
